@@ -2,19 +2,37 @@
     color: aqua;
     font-size: 40px;
     font-family: serif;
-    background-color: antiquewhite
+    text-shadow: 0px 2px 5px black;
+    text-align: center;
 }
 
-p {
-    color: blue;
+body {
+    padding: 10px;
+    color: white;
+    background-image: url(https://source.unsplash.com/1920x1080?buildings);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.thumbnail {
+    width: calc(33.33% - 20px);
+    border: 1px solid;
+    margin: 10px;
+    float: left;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+header {
+    border: 1px solid;
+}
+
+nav {
     font-size: 20px;
-}
-
-article {
-    font-family: oblique;
-    color: green;
-}
-
-article>span {
-    color: pink;
+    font-style: oblique;
+    word-spacing: 10px;
+    text-align: center;
+    text-decoration-line: underline;
 }
