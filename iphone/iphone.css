@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.iphone {
+    /*    background-image: url(iPhone-6S-Silver.png);*/
+    background-position: -120px;
+    height: 500px;
+    width: 300px;
+    background-size: 500px;
+    position: relative;
+}
+
+.edge {
+    background-color: darkgrey;
+    height: 480px;
+    width: 237px;
+    border-radius: 30px;
+    position: relative;
+    top: 11px;
+    left: 11px;
+}
+
+.iphonebody {
+    background-color: white;
+    height: 470px;
+    width: 230px;
+    border-radius: 30px;
+    position: absolute;
+    top: 15px;
+    left: 14.5px;
+}
+
+.dot {
+    background-color: black;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 112px;
+}
+
+.camera {
+    background-color: black;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 19px;
+    left: 69px;
+}
+
+.speaker {
+    background-color: darkgrey;
+    height: 5px;
+    width: 33px;
+    border-radius: 3px;
+    position: absolute;
+    top: 21px;
+    left: 98.5px;
+}
+
+.screen {
+    background-color: black;
+    height: 375px;
+    width: 221px;
+    position: absolute;
+    top: 40px;
+    left: 4.5px;
+}
+
+.homebtn {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid darkgrey;
+    position: absolute;
+    top: 422px;
+    left: 96px;
+}
