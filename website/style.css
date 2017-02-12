@@ -2,7 +2,9 @@
     border: 1px solid;
 }
 
-.thumbnail img {
-    width: 100%;
-    border-radius: 50%;
+header {
+    height: 300px;
+    border: 2px solid blue;
+    background-image: url(http://source.unsplash.com/1000x500);
+    background-size: cover;
 }
