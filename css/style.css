@@ -29,7 +29,7 @@ li a,
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 10px 16px;
+    padding: 16px 16px;
     text-decoration: none;
 }
 
@@ -46,7 +46,6 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: white;
-    padding: 16px 16px;
 }
 
 .dropdown-content a {
