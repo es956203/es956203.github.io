@@ -10,7 +10,7 @@ li h2 {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 11px 0px;
+    padding: 9px 0px;
 }
 
 ul {
@@ -30,7 +30,7 @@ li a,
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 16px 16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -47,12 +47,16 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: white;
+    max-width: 85px;
+    z-index: 1;
 }
 
 .dropdown-content a {
     color: black;
+    padding: 12px 12px;
     text-align: center;
     display: block;
+    text-align: left;
 }
 
 .dropdown-content a:hover {
@@ -63,8 +67,6 @@ li.dropdown {
     display: block;
 }
 
-p {}
-
 #title {
     font-size: 40px;
     vertical-align: middle;
@@ -74,7 +76,7 @@ p {}
     color: black;
 }
 
-.avatar img{
+.avatar img {
     width: 250px;
     height: 250px;
     border-radius: 100px;
@@ -85,9 +87,7 @@ p {}
 }
 
 p {
-   font-size: 20px;
+    font-size: 20px;
     color: dimgrey;
     font-weight: bold;
-
 }
-
