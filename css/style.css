@@ -83,3 +83,11 @@ p {}
 .avatar {
     text-align: center;
 }
+
+p {
+   font-size: 20px;
+    color: dimgrey;
+    font-weight: bold;
+
+}
+
